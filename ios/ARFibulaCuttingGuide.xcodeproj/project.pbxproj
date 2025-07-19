@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8934666E2DC11F0F000994E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893466552DC11F0E000994E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8934665C2DC11F0E000994E4;
+			remoteInfo = ARFibulaCuttingGuide;
+		};
+		893466782DC11F0F000994E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893466552DC11F0E000994E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8934665C2DC11F0E000994E4;
+			remoteInfo = ARFibulaCuttingGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8934665D2DC11F0E000994E4 /* ARFibulaCuttingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFibulaCuttingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8934666D2DC11F0F000994E4 /* ARFibulaCuttingGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFibulaCuttingGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893466772DC11F0F000994E4 /* ARFibulaCuttingGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFibulaCuttingGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8934665F2DC11F0E000994E4 /* ARFibulaCuttingGuide */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARFibulaCuttingGuide;
+			sourceTree = "<group>";
+		};
+		893466702DC11F0F000994E4 /* ARFibulaCuttingGuideTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARFibulaCuttingGuideTests;
+			sourceTree = "<group>";
+		};
+		8934667A2DC11F0F000994E4 /* ARFibulaCuttingGuideUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ARFibulaCuttingGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8934665A2DC11F0E000994E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934666A2DC11F0F000994E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893466742DC11F0F000994E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893466542DC11F0E000994E4 = {
+			isa = PBXGroup;
+			children = (
+				8934665F2DC11F0E000994E4 /* ARFibulaCuttingGuide */,
+				893466702DC11F0F000994E4 /* ARFibulaCuttingGuideTests */,
+				8934667A2DC11F0F000994E4 /* ARFibulaCuttingGuideUITests */,
+				8934665E2DC11F0E000994E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8934665E2DC11F0E000994E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8934665D2DC11F0E000994E4 /* ARFibulaCuttingGuide.app */,
+				8934666D2DC11F0F000994E4 /* ARFibulaCuttingGuideTests.xctest */,
+				893466772DC11F0F000994E4 /* ARFibulaCuttingGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8934665C2DC11F0E000994E4 /* ARFibulaCuttingGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893466812DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuide" */;
+			buildPhases = (
+				893466592DC11F0E000994E4 /* Sources */,
+				8934665A2DC11F0E000994E4 /* Frameworks */,
+				8934665B2DC11F0E000994E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8934665F2DC11F0E000994E4 /* ARFibulaCuttingGuide */,
+			);
+			name = ARFibulaCuttingGuide;
+			packageProductDependencies = (
+			);
+			productName = ARFibulaCuttingGuide;
+			productReference = 8934665D2DC11F0E000994E4 /* ARFibulaCuttingGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8934666C2DC11F0F000994E4 /* ARFibulaCuttingGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893466842DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuideTests" */;
+			buildPhases = (
+				893466692DC11F0F000994E4 /* Sources */,
+				8934666A2DC11F0F000994E4 /* Frameworks */,
+				8934666B2DC11F0F000994E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8934666F2DC11F0F000994E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				893466702DC11F0F000994E4 /* ARFibulaCuttingGuideTests */,
+			);
+			name = ARFibulaCuttingGuideTests;
+			packageProductDependencies = (
+			);
+			productName = ARFibulaCuttingGuideTests;
+			productReference = 8934666D2DC11F0F000994E4 /* ARFibulaCuttingGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		893466762DC11F0F000994E4 /* ARFibulaCuttingGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893466872DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuideUITests" */;
+			buildPhases = (
+				893466732DC11F0F000994E4 /* Sources */,
+				893466742DC11F0F000994E4 /* Frameworks */,
+				893466752DC11F0F000994E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893466792DC11F0F000994E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8934667A2DC11F0F000994E4 /* ARFibulaCuttingGuideUITests */,
+			);
+			name = ARFibulaCuttingGuideUITests;
+			packageProductDependencies = (
+			);
+			productName = ARFibulaCuttingGuideUITests;
+			productReference = 893466772DC11F0F000994E4 /* ARFibulaCuttingGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893466552DC11F0E000994E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8934665C2DC11F0E000994E4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8934666C2DC11F0F000994E4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8934665C2DC11F0E000994E4;
+					};
+					893466762DC11F0F000994E4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8934665C2DC11F0E000994E4;
+					};
+				};
+			};
+			buildConfigurationList = 893466582DC11F0E000994E4 /* Build configuration list for PBXProject "ARFibulaCuttingGuide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893466542DC11F0E000994E4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8934665E2DC11F0E000994E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8934665C2DC11F0E000994E4 /* ARFibulaCuttingGuide */,
+				8934666C2DC11F0F000994E4 /* ARFibulaCuttingGuideTests */,
+				893466762DC11F0F000994E4 /* ARFibulaCuttingGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8934665B2DC11F0E000994E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934666B2DC11F0F000994E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893466752DC11F0F000994E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893466592DC11F0E000994E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893466692DC11F0F000994E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893466732DC11F0F000994E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8934666F2DC11F0F000994E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8934665C2DC11F0E000994E4 /* ARFibulaCuttingGuide */;
+			targetProxy = 8934666E2DC11F0F000994E4 /* PBXContainerItemProxy */;
+		};
+		893466792DC11F0F000994E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8934665C2DC11F0E000994E4 /* ARFibulaCuttingGuide */;
+			targetProxy = 893466782DC11F0F000994E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8934667F2DC11F0F000994E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893466802DC11F0F000994E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893466822DC11F0F000994E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARFibulaCuttingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used to work with the AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893466832DC11F0F000994E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARFibulaCuttingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used to work with the AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		893466852DC11F0F000994E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFibulaCuttingGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARFibulaCuttingGuide";
+			};
+			name = Debug;
+		};
+		893466862DC11F0F000994E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFibulaCuttingGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARFibulaCuttingGuide";
+			};
+			name = Release;
+		};
+		893466882DC11F0F000994E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFibulaCuttingGuide;
+			};
+			name = Debug;
+		};
+		893466892DC11F0F000994E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.ARFibulaCuttingGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFibulaCuttingGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893466582DC11F0E000994E4 /* Build configuration list for PBXProject "ARFibulaCuttingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8934667F2DC11F0F000994E4 /* Debug */,
+				893466802DC11F0F000994E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893466812DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893466822DC11F0F000994E4 /* Debug */,
+				893466832DC11F0F000994E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893466842DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893466852DC11F0F000994E4 /* Debug */,
+				893466862DC11F0F000994E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893466872DC11F0F000994E4 /* Build configuration list for PBXNativeTarget "ARFibulaCuttingGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893466882DC11F0F000994E4 /* Debug */,
+				893466892DC11F0F000994E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893466552DC11F0E000994E4 /* Project object */;
+}

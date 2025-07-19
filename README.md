@@ -1,75 +1,73 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Mohammad Zhafran Dzaky  
+**NRP**: 5025211142  
+**Judul TA**: Pengembangan Aplikasi Augmented Reality untuk Panduan Osteotomi Fibula pada Platform iOS dan visionOS  
+**Dosen Pembimbing**: Hadziq Fabroyir, S.Kom., Ph.D.  
+**Dosen Ko-pembimbing**: Djoko Kuswanto, S.T., M.Biotech.
 
 ---
 
-## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
+## 📺 Demo Aplikasi
 
 [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
-*Klik gambar di atas untuk menonton demo*
+_Klik gambar di atas untuk menonton demo_
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
+## 🛠 Panduan Instalasi & Menjalankan Software
 
-## 🛠 Panduan Instalasi & Menjalankan Software  
+### Prasyarat
 
-### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Daftar perangkat:
+  - Macbook
+  - Xcode (16.0 or latest)
+  - iOS (iPhone atau iPad)
+  - visionOS (Apple Vision Pro)
+- Daftar dependensi:
+  - Swift 5
+  - iOS 18.0
+  - visionOS 2.0
 
-### Langkah-langkah  
-1. **Clone Repository**  
+### Langkah-langkah
+
+1. **Clone Repository**
    ```bash
    git clone https://github.com/Informatics-ITS/TA.git
    ```
-2. **Instalasi Dependensi**
-   ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
-   ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+2. **Buka Proyek di Xcode**
+
+   - Xcode -> file -> open -> pilih path di repo proyek [ios/visionos].
+   - atau buka lewat launch screen Xcode dengan memilih direktori yang sesuai.
+
+3. **Jalankan Aplikasi**
+   - Hubungkan perangkat target ke xcode macbook (iPhone menggunakan kabel type-C, Apple Vision Pro menggunakan **_developer straps_** atau via koneksi wifi berprotokol **_Bonjour_** yang sama dengan macbook).
+   - Pilih perangkat destinasi sesuai pilihan proyek dan perangkat yang telah disambungkan ke xcode macbook.
+   - Klik tombol _build and run_.
 
 ---
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+- ### Tahapan dan Arsitektur Sistem
+  ![Diagram Arsitektur](docs/architecture.png)
 
 ---
 
 ## ✅ Validasi
 
 Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+
+- [x] Source code dapat di-build/run tanpa error
+- [ ] Video demo jelas menampilkan fitur utama
+- [ ] README lengkap dan terupdate
+- [x] Tidak ada data sensitif (password, API key) yang ter-expose
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+
+- Penulis: zhafrandzaky[at]gmail.com
+- Pembimbing Utama: hadziq[at]its.ac.id

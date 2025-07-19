@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89B1902C2DC8ACCD001D8E2A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 89B1902B2DC8ACCD001D8E2A /* RealityKitContent */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89B1903C2DC8ACCF001D8E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B1901E2DC8ACCD001D8E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89B190252DC8ACCD001D8E2A;
+			remoteInfo = VisionOSFibulaCuttingGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89B190262DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSFibulaCuttingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B1902A2DC8ACCD001D8E2A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		89B1903B2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSFibulaCuttingGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		893174C52DD76DCF00F2F62A /* Exceptions for "VisionOSFibulaCuttingGuide" folder in "VisionOSFibulaCuttingGuide" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/AppState.swift,
+				App/FragmentGroupLoader.swift,
+				App/ObjectAnchorVisualization.swift,
+				Assets.xcassets,
+				Data/Sample.swift,
+				Model/Fragment.swift,
+				"Preview Content/Preview Assets.xcassets",
+				"Reference Objects/fibula-1.referenceobject",
+				"Reference Objects/fibula-2.referenceobject",
+				"Reference Objects/fibula-3.referenceobject",
+				Utils/Extensions.swift,
+				Views/HomeView.swift,
+				Views/ObjectTrackingView.swift,
+				VisionOSFibulaCuttingGuideApp.swift,
+			);
+			target = 89B190252DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide */;
+		};
+		893174C62DD76DCF00F2F62A /* Exceptions for "VisionOSFibulaCuttingGuide" folder in "VisionOSFibulaCuttingGuideTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/AppState.swift,
+				App/FragmentGroupLoader.swift,
+				App/ObjectAnchorVisualization.swift,
+				Assets.xcassets,
+				Data/Sample.swift,
+				Info.plist,
+				Model/Fragment.swift,
+				"Preview Content/Preview Assets.xcassets",
+				"Reference Objects/fibula-1.referenceobject",
+				"Reference Objects/fibula-2.referenceobject",
+				"Reference Objects/fibula-3.referenceobject",
+				Utils/Extensions.swift,
+				Views/HomeView.swift,
+				Views/ObjectTrackingView.swift,
+				VisionOSFibulaCuttingGuideApp.swift,
+			);
+			target = 89B1903A2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		893174B62DD76DCF00F2F62A /* VisionOSFibulaCuttingGuide */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				893174C52DD76DCF00F2F62A /* Exceptions for "VisionOSFibulaCuttingGuide" folder in "VisionOSFibulaCuttingGuide" target */,
+				893174C62DD76DCF00F2F62A /* Exceptions for "VisionOSFibulaCuttingGuide" folder in "VisionOSFibulaCuttingGuideTests" target */,
+			);
+			path = VisionOSFibulaCuttingGuide;
+			sourceTree = "<group>";
+		};
+		89B1903E2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VisionOSFibulaCuttingGuideTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89B190232DC8ACCD001D8E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B1902C2DC8ACCD001D8E2A /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B190382DC8ACCF001D8E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B1901D2DC8ACCD001D8E2A = {
+			isa = PBXGroup;
+			children = (
+				893174B62DD76DCF00F2F62A /* VisionOSFibulaCuttingGuide */,
+				89B190292DC8ACCD001D8E2A /* Packages */,
+				89B1903E2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */,
+				89B190272DC8ACCD001D8E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89B190272DC8ACCD001D8E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B190262DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide.app */,
+				89B1903B2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89B190292DC8ACCD001D8E2A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				89B1902A2DC8ACCD001D8E2A /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89B190252DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B190422DC8ACCF001D8E2A /* Build configuration list for PBXNativeTarget "VisionOSFibulaCuttingGuide" */;
+			buildPhases = (
+				89B190222DC8ACCD001D8E2A /* Sources */,
+				89B190232DC8ACCD001D8E2A /* Frameworks */,
+				89B190242DC8ACCD001D8E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionOSFibulaCuttingGuide;
+			packageProductDependencies = (
+				89B1902B2DC8ACCD001D8E2A /* RealityKitContent */,
+			);
+			productName = VisionOSFibulaCuttingGuide;
+			productReference = 89B190262DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89B1903A2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B190472DC8ACCF001D8E2A /* Build configuration list for PBXNativeTarget "VisionOSFibulaCuttingGuideTests" */;
+			buildPhases = (
+				89B190372DC8ACCF001D8E2A /* Sources */,
+				89B190382DC8ACCF001D8E2A /* Frameworks */,
+				89B190392DC8ACCF001D8E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89B1903D2DC8ACCF001D8E2A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				893174B62DD76DCF00F2F62A /* VisionOSFibulaCuttingGuide */,
+				89B1903E2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */,
+			);
+			name = VisionOSFibulaCuttingGuideTests;
+			packageProductDependencies = (
+			);
+			productName = VisionOSFibulaCuttingGuideTests;
+			productReference = 89B1903B2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89B1901E2DC8ACCD001D8E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					89B190252DC8ACCD001D8E2A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					89B1903A2DC8ACCF001D8E2A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 89B190252DC8ACCD001D8E2A;
+					};
+				};
+			};
+			buildConfigurationList = 89B190212DC8ACCD001D8E2A /* Build configuration list for PBXProject "VisionOSFibulaCuttingGuide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89B1901D2DC8ACCD001D8E2A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89B190272DC8ACCD001D8E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89B190252DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide */,
+				89B1903A2DC8ACCF001D8E2A /* VisionOSFibulaCuttingGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89B190242DC8ACCD001D8E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B190392DC8ACCF001D8E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89B190222DC8ACCD001D8E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B190372DC8ACCF001D8E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89B1903D2DC8ACCF001D8E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89B190252DC8ACCD001D8E2A /* VisionOSFibulaCuttingGuide */;
+			targetProxy = 89B1903C2DC8ACCF001D8E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89B190432DC8ACCF001D8E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSFibulaCuttingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.VisionOSFibulaCuttingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		89B190442DC8ACCF001D8E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSFibulaCuttingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.VisionOSFibulaCuttingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		89B190452DC8ACCF001D8E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		89B190462DC8ACCF001D8E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		89B190482DC8ACCF001D8E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.VisionOSFibulaCuttingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSFibulaCuttingGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSFibulaCuttingGuide";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		89B190492DC8ACCF001D8E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A5KTMAWHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vron.VisionOSFibulaCuttingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSFibulaCuttingGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSFibulaCuttingGuide";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89B190212DC8ACCD001D8E2A /* Build configuration list for PBXProject "VisionOSFibulaCuttingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B190452DC8ACCF001D8E2A /* Debug */,
+				89B190462DC8ACCF001D8E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B190422DC8ACCF001D8E2A /* Build configuration list for PBXNativeTarget "VisionOSFibulaCuttingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B190432DC8ACCF001D8E2A /* Debug */,
+				89B190442DC8ACCF001D8E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B190472DC8ACCF001D8E2A /* Build configuration list for PBXNativeTarget "VisionOSFibulaCuttingGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B190482DC8ACCF001D8E2A /* Debug */,
+				89B190492DC8ACCF001D8E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89B1902B2DC8ACCD001D8E2A /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89B1901E2DC8ACCD001D8E2A /* Project object */;
+}
