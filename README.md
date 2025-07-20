@@ -10,7 +10,7 @@
 
 ## 📺 Demo Aplikasi
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](docs/thumbnail.png)](https://youtu.be/pWtIT9mHsf4)  
 _Klik gambar di atas untuk menonton demo_
 
 ---
@@ -59,8 +59,8 @@ _Klik gambar di atas untuk menonton demo_
 Pastikan proyek memenuhi kriteria berikut sebelum submit:
 
 - [x] Source code dapat di-build/run tanpa error
-- [ ] Video demo jelas menampilkan fitur utama
-- [ ] README lengkap dan terupdate
+- [x] Video demo jelas menampilkan fitur utama
+- [x] README lengkap dan terupdate
 - [x] Tidak ada data sensitif (password, API key) yang ter-expose
 
 ---
