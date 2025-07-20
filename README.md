@@ -54,17 +54,6 @@ _Klik gambar di atas untuk menonton demo_
 
 ---
 
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-
-- [x] Source code dapat di-build/run tanpa error
-- [x] Video demo jelas menampilkan fitur utama
-- [x] README lengkap dan terupdate
-- [x] Tidak ada data sensitif (password, API key) yang ter-expose
-
----
-
 ## ⁉️ Pertanyaan?
 
 Hubungi:
